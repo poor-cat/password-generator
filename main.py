@@ -13,15 +13,9 @@ import random
 root = Tk()
 
 root.resizable(False,False)
-
 root.config(bg="blue")
-
 root.geometry("750x400+400+150")
-
-
-
 root.iconbitmap("logo.ico")
-
 
 
 def number():
@@ -33,13 +27,9 @@ def number():
     
 
         s1 = string.ascii_lowercase
-
         s2 = string.ascii_uppercase
-
         s3 = string.digits
-
         s4 = string.punctuation
-
 
 
         #plen = password lenght
@@ -49,13 +39,9 @@ def number():
         s = []
 
         s.extend(list(s1))
-
         s.extend(list(s2))
-
         s.extend(list(s3))
-
         s.extend(list(s4))
-
 
 
         random.shuffle(s)
@@ -63,7 +49,6 @@ def number():
 
 
         a = ("".join(s[0:plen]))
-
 
 
         # print(a)
@@ -109,9 +94,7 @@ Input_label = Label(text="Enter the Lenght of Your Password ↓",compound=LEFT,b
 # Lock Image
 
 photo = PhotoImage(file="pass.png")
-
 ph_label = Label(image=photo, bg="blue") 
-
 ph_label.place(x=490, y=70)
 
 
@@ -135,7 +118,6 @@ bottom_title.pack(side=BOTTOM)
 
 
 passwords_in_screen = Entry(root, font=("times new roman", 14),bd=0)
-
 passwords_in_screen.place(x=3, y=270,width=450, height=30)
 
 
@@ -143,7 +125,6 @@ passwords_in_screen.place(x=3, y=270,width=450, height=30)
 #how to copy password info - label
 
 copy_pass = Label(text="Copy This Password by pressing ctrl+c ↑", bg="blue" , font=("times new roman", 20, "italic","bold"))
-
 copy_pass.place(x=0, y=300)
 
 
