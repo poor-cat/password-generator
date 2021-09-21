@@ -54,7 +54,6 @@ def number():
         # print(a)
 
         passwords_in_screen.insert(0, a)
-
         passwords_in_screen.config(state="readonly")
 
         
