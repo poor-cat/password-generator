@@ -96,7 +96,6 @@ ph_label = Label(image=photo, bg="blue")
 ph_label.place(x=490, y=70)
 
 
-
 #button
 
 bt = Button(root,text="Generate Password", bd=1,command=number,font=("times new roman", 18, "bold"), bg="#00B0F0", activebackground="#00B0F0",activeforegroun="white", fg="white", cursor="hand2")
