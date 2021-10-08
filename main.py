@@ -1,13 +1,8 @@
 #random and secure password generator GUI in tkinter 
-
 from tkinter import *
-
 from tkinter import messagebox
-
 from tkinter import Image
-
 import string
-
 import random
 
 root = Tk()
@@ -19,12 +14,8 @@ root.iconbitmap("logo.ico")
 
 
 def number():
-
     try:
-
         int(number_entry.get())
-
-    
 
         s1 = string.ascii_lowercase
         s2 = string.ascii_uppercase
@@ -101,9 +92,6 @@ bt = Button(root,text="Generate Password", bd=1,command=number,font=("times new 
 bt.place(x=100, y=190)
 
 
-
-
-
 #(label) for desiging and good look
 
 bottom_title = Label(text="Security Comes First || Coded By Pahul Ashish Kumar",bg="orange", fg="black",font=("Calibri (bold)", 25))
@@ -127,9 +115,4 @@ copy_pass.place(x=0, y=300)
 #
 
 # new_bt = Button(text="wan to secure excisting ")
-
-
-
-
-
 root.mainloop()
