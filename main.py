@@ -101,7 +101,6 @@ passwords_in_screen.place(x=3, y=270,width=450, height=30)
 
 
 #how to copy password info - label
-
 copy_pass = Label(text="Copy This Password by pressing ctrl+c ↑", bg="blue" , font=("times new roman", 20, "italic","bold"))
 copy_pass.place(x=0, y=300)
 
