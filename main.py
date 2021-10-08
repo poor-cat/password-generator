@@ -107,7 +107,5 @@ copy_pass.place(x=0, y=300)
 
 
 
-#
-
 # new_bt = Button(text="wan to secure excisting ")
 root.mainloop()
