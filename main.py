@@ -53,7 +53,6 @@ def number():
         messagebox.showerror("error","Pls Enter Number")
 
 
-
 root.title("Random and Secure Password Generator || Coded By Ashish Kumar")
 
 title = Label(text="Secure Your Accounts using Strong Password",compound=LEFT, bg="#222A35",fg="white", font=("Fixedsys", 20, "bold"))
