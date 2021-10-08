@@ -38,7 +38,6 @@ def number():
         random.shuffle(s)
 
 
-
         a = ("".join(s[0:plen]))
 
 
@@ -78,14 +77,12 @@ Input_label = Label(text="Enter the Lenght of Your Password ↓",compound=LEFT,b
 
 
 # Lock Image
-
 photo = PhotoImage(file="pass.png")
 ph_label = Label(image=photo, bg="blue") 
 ph_label.place(x=490, y=70)
 
 
 #button
-
 bt = Button(root,text="Generate Password", bd=1,command=number,font=("times new roman", 18, "bold"), bg="#00B0F0", activebackground="#00B0F0",activeforegroun="white", fg="white", cursor="hand2")
 
 bt.place(x=100, y=190)
@@ -96,7 +93,6 @@ bt.place(x=100, y=190)
 bottom_title = Label(text="Security Comes First || Coded By Pahul Ashish Kumar",bg="orange", fg="black",font=("Calibri (bold)", 25))
 
 bottom_title.pack(side=BOTTOM)
-
 
 
 passwords_in_screen = Entry(root, font=("times new roman", 14),bd=0)
