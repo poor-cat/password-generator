@@ -32,7 +32,6 @@ def number():
         s.extend(list(s3))
         s.extend(list(s4))
 
-
         random.shuffle(s)
 
 
