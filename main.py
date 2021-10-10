@@ -58,7 +58,8 @@ title.pack()
 
 
 
-# entery field of number (password lenght input field)
+# entery field of number (password lenght input field
+
 
 number_entry = Entry(root, font=("times new roman", 14),bg="lightblue")
 
@@ -82,7 +83,6 @@ ph_label.place(x=490, y=70)
 bt = Button(root,text="Generate Password", bd=1,command=number,font=("times new roman", 18, "bold"), bg="#00B0F0", activebackground="#00B0F0",activeforegroun="white", fg="white", cursor="hand2")
 
 bt.place(x=100, y=190)
-
 
 #(label) for desiging and good look
 
