@@ -20,7 +20,6 @@ def number():
         s2 = string.ascii_uppercase
         s3 = string.digits
         s4 = string.punctuation
-
         #plen = password lenght
 
 
