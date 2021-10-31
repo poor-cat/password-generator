@@ -54,7 +54,6 @@ title = Label(text="Secure Your Accounts using Strong Password",compound=LEFT, b
 
 title.pack()
 
-
 # entery field of number (password lenght input field
 
 
