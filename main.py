@@ -5,7 +5,6 @@ from tkinter import Image
 import string
 import random
 
-
 root = Tk()
 
 
