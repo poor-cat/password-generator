@@ -8,7 +8,6 @@ import random
 root = Tk()
 
 
-
 root.resizable(False,False)
 root.config(bg="blue")
 root.geometry("750x400+400+150")
