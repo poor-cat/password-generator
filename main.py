@@ -69,6 +69,7 @@ number_entry.place(x=3, y=130,width=450, height=30)
 Input_label = Label(text="Enter the Lenght of Your Password ↓",compound=LEFT,bg="lightgreen",fg="black", font=("times new roman", 22, "italic", "bold")).place(y=70)
 
 # Lock Image
+
 photo = PhotoImage(file="pass.png")
 ph_label = Label(image=photo, bg="blue") 
 ph_label.place(x=490, y=70)
