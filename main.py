@@ -66,7 +66,6 @@ number_entry.place(x=3, y=130,width=450, height=30)
 
 # telling user for input number of lenght label
 
-
 Input_label = Label(text="Enter the Lenght of Your Password ↓",compound=LEFT,bg="lightgreen",fg="black", font=("times new roman", 22, "italic", "bold")).place(y=70)
 
 # Lock Image
