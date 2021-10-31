@@ -34,7 +34,6 @@ def number():
 
         random.shuffle(s)
 
-
         a = ("".join(s[0:plen]))
 
 
