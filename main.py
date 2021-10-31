@@ -36,7 +36,6 @@ def number():
 
         a = ("".join(s[0:plen]))
 
-
         # print(a)
 
         passwords_in_screen.insert(0, a)
