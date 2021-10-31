@@ -23,7 +23,9 @@ def number():
 
         #plen = password lenght
 
+
         plen = int(number_entry.get())
+
         s = []
 
         s.extend(list(s1))
