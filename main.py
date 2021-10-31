@@ -92,7 +92,6 @@ bottom_title = Label(text="Security Comes First || Coded By Pahul Ashish Kumar",
 bottom_title.pack(side=BOTTOM)
 
 
-
 passwords_in_screen = Entry(root, font=("times new roman", 14),bd=0)
 passwords_in_screen.place(x=3, y=270,width=450, height=30)
 
