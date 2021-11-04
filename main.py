@@ -12,6 +12,7 @@ root.config(bg="blue")
 root.geometry("750x400+400+150")
 root.iconbitmap("logo.ico")
 
+
 def number():
     try:
         int(number_entry.get())
