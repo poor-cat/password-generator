@@ -22,7 +22,6 @@ def number():
         s4 = string.punctuation
         #plen = password lenght
 
-
         plen = int(number_entry.get())
 
         s = []
